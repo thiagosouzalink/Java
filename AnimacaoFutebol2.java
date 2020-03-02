@@ -1,9 +1,11 @@
 
-AnimaÁ„o java elaborado como projeto da faculdade
+/*
+Anima√ß√£o java elaborado como projeto da faculdade
 
 Autor: Thiago Souza	
 
-Universidade Federal do Par·
+Universidade Federal do Par√°
+*/
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,7 +20,7 @@ public class AnimacaoFutebol extends JFrame {
    public AnimacaoFutebol() {
 
         super("FUTEBOL");
-        getContentPane().setBackground(Color.blue); //fundo da animaÁ„o
+        getContentPane().setBackground(Color.blue); //fundo da anima√ß√£o
         setSize ( 1200, 800 );
         setVisible ( true );
 
@@ -35,23 +37,23 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-// ---------------------ApresentaÁ„o-------------------------------------------------------------------
+// ---------------------Apresenta√ß√£o-------------------------------------------------------------------
 
 // 	     for (int s = 0; s <= 800; s += 80) {
 
 // 		        g.setColor(Color.white);
 // 		        g.setFont(new Font("Arial", Font.BOLD, 30));//fonte,tipo e tamanho da fonte
-// 		        g.drawString("Universidade Federal Do Par·", 30 , s);
+// 		        g.drawString("Universidade Federal Do Par√°", 30 , s);
 // 		        g.setFont(new Font("Arial", Font.BOLD, 30));//tamanho da fonte
-// 		        g.drawString("Curso de Engenharia Da ComputaÁ„o", 30, s + 30);
-// 		        g.drawString("Disciplina : Algoritmos e ProgramaÁ„o de Computadores II", 30, s + 60);
-// 		        g.drawString("Trabalho de AnimaÁ„o Java 2D", 30, s + 90);
+// 		        g.drawString("Curso de Engenharia Da Computa√ß√£o", 30, s + 30);
+// 		        g.drawString("Disciplina : Algoritmos e Programa√ß√£o de Computadores II", 30, s + 60);
+// 		        g.drawString("Trabalho de Anima√ß√£o Java 2D", 30, s + 90);
 // 		        g.drawString("Professor Manuel Ribeiro", 30, s + 120);
 // 		        g.drawString("Alunos :  Thiago Souza", 30, s + 150);
 // 		        g.drawString("                 Danilo Pena", 30, s + 180);
 
 
-// 		            //Parada de Tempo para visualizaÁ„o da abertura
+// 		            //Parada de Tempo para visualiza√ß√£o da abertura
 // 		            if (s != 160) {
 // 		               // tempo de atraso
 // 		                try {
@@ -83,7 +85,7 @@ public class AnimacaoFutebol extends JFrame {
                g.setColor(Color.white);
 		       g.setFont(new Font("Arial", Font.BOLD, 50));
 		       g.drawString("Futebol", 100 , 200 + s);
-		       g.drawString("paix„o nacional", 100 , 250 + s);
+		       g.drawString("paix√£o nacional", 100 , 250 + s);
 
 
 
@@ -121,7 +123,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-//--------------------parte da animaÁ„o---------------------------------------------------------------
+//--------------------parte da anima√ß√£o---------------------------------------------------------------
 
 
 	    // desenha o sol
@@ -145,16 +147,16 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-          // 1∫ personagem -> jogador com a bola
+          // 1¬∫ personagem -> jogador com a bola
          g2d.setColor(Color.black);
-   		 g2d.drawOval(25,625,30,30); // movimento da cabeÁa
+   		 g2d.drawOval(25,625,30,30); // movimento da cabe√ßa
    		 g2d.drawLine(40,655,40,695); // movimento do tronco
-   		 g2d.drawLine(40,655,20,685); // movimento da braÁo esquerda
-   		 g2d.drawLine(40,655,60,685); // movimento da braÁo direita
-   		 g2d.drawLine(40,695,20,734); // movimento do pÈ esquerdo
-   		 g2d.drawLine(40,695,60,734); // movimento do pÈ direito
+   		 g2d.drawLine(40,655,20,685); // movimento da bra√ßo esquerda
+   		 g2d.drawLine(40,655,60,685); // movimento da bra√ßo direita
+   		 g2d.drawLine(40,695,20,734); // movimento do p√© esquerdo
+   		 g2d.drawLine(40,695,60,734); // movimento do p√© direito
 
-          // 2∫ personagem -> outro jogador
+          // 2¬∫ personagem -> outro jogador
          g2d.setColor(Color.black);
 		 g2d.drawOval(25,510,30,30);
 		 g2d.drawLine(40,540,40,580);
@@ -163,7 +165,7 @@ public class AnimacaoFutebol extends JFrame {
 		 g2d.drawLine(40,580,20,619);
 		 g2d.drawLine(40,580,60,619);
 
-         // 3∫ personagem -> plateia
+         // 3¬∫ personagem -> plateia
          g2d.setColor(Color.black);
 		 g2d.drawOval(950,450,30,30);
 		 g2d.drawLine(965,480,965,520);
@@ -172,7 +174,7 @@ public class AnimacaoFutebol extends JFrame {
    		 g2d.drawLine(965,520,945,559);
 		 g2d.drawLine(965,520,985,559);
 
-         // 4∫ personagem -> plateia
+         // 4¬∫ personagem -> plateia
           g2d.setColor(Color.black);
 		  g2d.drawOval(950,335,30,30);
 		  g2d.drawLine(965,365,965,405);
@@ -181,7 +183,7 @@ public class AnimacaoFutebol extends JFrame {
 		  g2d.drawLine(965,405,945,444);
 		  g2d.drawLine(965,405,985,444);
 
-         // 5∫ personagem -> goleiro
+         // 5¬∫ personagem -> goleiro
           g2d.setColor(Color.black);
 		  g2d.drawOval(436,100+10,30,30);
 		  g2d.drawLine(451,130+10,451,170+10);
@@ -196,7 +198,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-          // 1∫ personagem -> jogador com a bola
+          // 1¬∫ personagem -> jogador com a bola
 
 
 		   try {
@@ -222,7 +224,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-            // 2∫ personagem -> outro jogador
+            // 2¬∫ personagem -> outro jogador
 
             Polygon dialogo3 = new Polygon();
 		    Polygon dialogo4 = new Polygon();
@@ -328,12 +330,12 @@ public class AnimacaoFutebol extends JFrame {
 
 		     b=20+w;
 		     g2d.setColor(Color.black);
-		     g2d.drawOval(5+w,625,30,30); // movimento da cabeÁa
+		     g2d.drawOval(5+w,625,30,30); // movimento da cabe√ßa
 		     g2d.drawLine(20+w,655,20+w,695); // movimento do tronco
-		     g2d.drawLine(20+w,655,w,685); // movimento da braÁo esquerda
-		     g2d.drawLine(20+w,655,40+w,685); // movimento da braÁo direita
-		     g2d.drawLine(b,695,b-20,734); // movimento do pÈ esquerdo
-			 g2d.drawLine(b,695,b+20,734); // movimento do pÈ direito
+		     g2d.drawLine(20+w,655,w,685); // movimento da bra√ßo esquerda
+		     g2d.drawLine(20+w,655,40+w,685); // movimento da bra√ßo direita
+		     g2d.drawLine(b,695,b-20,734); // movimento do p√© esquerdo
+			 g2d.drawLine(b,695,b+20,734); // movimento do p√© direito
 
 
 
@@ -409,7 +411,7 @@ public class AnimacaoFutebol extends JFrame {
 			   g2d.drawOval(5+w,510,30,30);
 			   g2d.drawLine(20+w,540,20+w,580);
 			   g2d.drawLine(20+w,540,w,570);
-		       g2d.drawLine(20+w,540,40+w,570);// movimento da braÁo
+		       g2d.drawLine(20+w,540,40+w,570);// movimento da bra√ßo
 			   g2d.drawLine(b,580,b-20,619);
 			   g2d.drawLine(b,580,b+20,619);
 
@@ -457,7 +459,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-        // parada para o movimento do braÁo
+        // parada para o movimento do bra√ßo
                try {
 
 			    Thread.sleep(100);
@@ -467,7 +469,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-               // dialogo antes do movimento do braÁo
+               // dialogo antes do movimento do bra√ßo
 
 
                Polygon dialogo9 = new Polygon();
@@ -499,7 +501,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-          // for do movimento do braÁo
+          // for do movimento do bra√ßo
 
           for (int i=1; i<=3 ;i++)  {
 
@@ -517,12 +519,12 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-                // braÁo abaixado
+                // bra√ßo abaixado
 		        g2d.setColor(Color.black);
 		        g2d.drawOval(w-20,510,30,30);
 		        g2d.drawLine(w-5,540,w-5,580);
 		        g2d.drawLine(w-5,540,w-25,570);
-		        g2d.drawLine(w-5,540,w+15,570);// movimento da braÁo x1=x2 y=+20
+		        g2d.drawLine(w-5,540,w+15,570);// movimento da bra√ßo x1=x2 y=+20
 		        g2d.drawLine(b,580,b-20,619);
 		        g2d.drawLine(b,580,b+20,619);
 
@@ -547,7 +549,7 @@ public class AnimacaoFutebol extends JFrame {
 			   g2d.drawLine(b,580,b+20,619);
 
 
-               // braÁo erguido
+               // bra√ßo erguido
                g2d.setColor(Color.black);
                g2d.drawOval(w-20,510,30,30);
 		  	   g2d.drawLine(w-5,540,w-5,580);
@@ -596,12 +598,12 @@ public class AnimacaoFutebol extends JFrame {
 	  }
 
 
-                // braÁo abaixado
+                // bra√ßo abaixado
                 g2d.setColor(Color.black);
 	   		    g2d.drawOval(w-20,510,30,30);
 	   		    g2d.drawLine(w-5,540,w-5,580);
 	   		    g2d.drawLine(w-5,540,w-25,570);
-	   		    g2d.drawLine(w-5,540,w+15,570);// movimento da braÁo
+	   		    g2d.drawLine(w-5,540,w+15,570);// movimento da bra√ßo
 	   		    g2d.drawLine(b,580,b-20,619);
 	   		    g2d.drawLine(b,580,b+20,619);
 
@@ -691,14 +693,14 @@ public class AnimacaoFutebol extends JFrame {
 
 		  g.setColor(Color.black);
 
-		  //1∫ jogador
+		  //1¬∫ jogador
 		  g2d.drawOval(w-20,625,30,30);
 		  g2d.drawLine(w-5,655,w-5,695);
 		  g2d.drawLine(w-5,655,w-25,685);
 		  g2d.drawLine(w-5,655,w+15,685);
 		  g2d.drawLine(b,695,b-20,734);
 		  g2d.drawLine(b,695,b+20,734);
-          // 2∫ jogador
+          // 2¬∫ jogador
 		  g2d.drawOval(w-20,510,30,30);
 		  g2d.drawLine(w-5,540,w-5,580);
 		  g2d.drawLine(w-5,540,w-25,570);
@@ -714,7 +716,7 @@ public class AnimacaoFutebol extends JFrame {
 		 g2d.fillOval(670,350,25,25);
 
 
-//-------------movimento do jogador apÛs o drible-------------------------------------------
+//-------------movimento do jogador ap√≥s o drible-------------------------------------------
 
          for ( t=0;t<=80;t+=20) {
 
@@ -922,7 +924,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-//------------------movimento da bola apÛs ao chute ao gol -------------------------------------------
+//------------------movimento da bola ap√≥s ao chute ao gol -------------------------------------------
 
 
 
@@ -1388,7 +1390,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-// -----------------fim da AnimaÁ„o-----------------------------------------------------------
+// -----------------fim da Anima√ß√£o-----------------------------------------------------------
 
 
     for (int s = 0; s <= 800; s += 80) {
@@ -1478,7 +1480,7 @@ public class AnimacaoFutebol extends JFrame {
 
 
 
-		 g.drawString("Eu vou ficar sÛ olhando",805,295);
+		 g.drawString("Eu vou ficar s√≥ olhando",805,295);
 
 
 		    try {
@@ -1487,7 +1489,7 @@ public class AnimacaoFutebol extends JFrame {
 			  catch (InterruptedException interruptedException) {}
 
 
-		g.drawString(" Eu tambÈm",805,380);
+		g.drawString(" Eu tamb√©m",805,380);
 
 
 
@@ -1538,7 +1540,7 @@ public class AnimacaoFutebol extends JFrame {
 	   		            }
 	   		           catch (InterruptedException interruptedException) {}
 
-	              g.drawString("ent„o eu sou o zagueiro",90,470);
+	              g.drawString("ent√£o eu sou o zagueiro",90,470);
 	              g.drawString("mas eu sou o ",90,480);
 	              g.drawString("melhor jogador",90,490);
                   g.drawString("claro!!!",90,500);
@@ -1551,14 +1553,14 @@ public class AnimacaoFutebol extends JFrame {
 
                 else if ( i == 5 ) {
 
-                  g.drawString("ent„o Vamos !",90,585);
+                  g.drawString("ent√£o Vamos !",90,585);
 
                    try {
 				  	    Thread.sleep(1500);
 				  	   }
 	   		           catch (InterruptedException interruptedException) {}
 
-                  g.drawString("È vamos logo!",90,470);
+                  g.drawString("√© vamos logo!",90,470);
 
 
 			      try {
@@ -1567,7 +1569,7 @@ public class AnimacaoFutebol extends JFrame {
 				  	 catch (InterruptedException interruptedException) {}
 
                   g.drawString("Vamos ver",805,295);
-                  g.drawString("Se tu È ",805,305);
+                  g.drawString("Se tu √© ",805,305);
 			      g.drawString("Bom mesmo",805,315);
 
 
@@ -1632,7 +1634,7 @@ public class AnimacaoFutebol extends JFrame {
 
             g.drawString("Realmente",805,380);
             g.drawString("Foi um",805,390);
-            g.drawString("GolaÁo",805,400);
+            g.drawString("Gola√ßo",805,400);
 
 
 
